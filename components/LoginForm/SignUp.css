@@ -1,0 +1,101 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+   
+}
+
+.signup-container img {
+  width: 190px;
+  height: 106px;
+}
+.login-logo {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.signup-container p {
+  align-items: center;
+  font-size: 16px;
+  color: rgba(115, 115, 115, 1);
+  
+}
+
+.more {
+padding-top: 27px;
+ text-align: center;
+  font-size: 12px;
+  align-items: center;
+}
+
+.more2 {
+  /* padding: 18px; */
+  font-size: 12px;
+  align-items: center;
+}
+/* 
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+  
+  .login-logo {
+    margin-bottom: 20px;
+    width: 150px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+   
+  }
+  
+  .input-field {
+    /* width: 100%; */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff; /* Синий цвет */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Более темный оттенок синего */
+  }
+  
+  .signup-box {
+    /* width: 80%;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 26px; */
+}
