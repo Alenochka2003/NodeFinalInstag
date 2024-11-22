@@ -83,7 +83,7 @@ function Search() {
           type="text"
           placeholder="Search"
           value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)} // Обновляем состояние при вводе текста
+          onChange={(e) => setSearchTerm(e.target.value)} 
         />
         {/* Кнопка для очистки поля */}
         <button onClick={clearSearch}>
@@ -96,7 +96,7 @@ function Search() {
       </button>
       <div className={styles.search_list}>
         {filteredUsers.map((user) => (
-          <SearchList key={user._id} user={user} /> // Передаем пользователя в компонент SearchList
+          <SearchList key={user._id} user={user} />
         ))}
       </div>
     </div>
