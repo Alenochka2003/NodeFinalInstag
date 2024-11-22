@@ -12,7 +12,7 @@ const ProfilePosts = ({ post, onClose, currentUser, onCancel, onDelete }) => {
           <button onClick={onClose} className={styles.closeButton}>
             Закрыть
           </button>
-          {/* Добавьте другие действия, если необходимо */}
+         
         </div>
       </div>
     </div>

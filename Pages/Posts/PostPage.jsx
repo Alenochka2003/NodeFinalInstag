@@ -21,13 +21,7 @@ function PostPage() {
         </div>
       </div>
 
-      {/* Описание поста */}
-      {/* <div className={styles.description}>
-        <p className={styles.username}>itcareerhub</p>
-        <p>
-          Потрясающие новости пришли к нам из Черногории! Проект по поддержке...
-        </p>
-      </div> */}
+   
 
       {/* Комментарии */}
       <div className={styles.comments}>

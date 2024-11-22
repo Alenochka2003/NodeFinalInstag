@@ -6,7 +6,7 @@ import { fetchPostsUser, deletePost } from "../../store/slices/postSlice";
 import ProfilePosts from "../Posts/ProfilePosts";
 import styles from "./Profile.module.css";
 import { useNavigate } from "react-router-dom";
-import IMG from "../../images/png/empty.png";
+import IMG from "../../images/png/avatar.jpg";
 
 
 const placeholderImage =
