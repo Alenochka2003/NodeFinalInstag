@@ -165,7 +165,7 @@
   font-size: 12px;
   margin-top: 4px;
 }
-.reset_null {
+/* .reset_null {
     height: 5.25rem;
 }
 .reset_null1 {
@@ -177,7 +177,7 @@
     flex-direction: column;
     gap: 5px;
     margin: 8px 0;
-}
+} */
 .languageSwitcher {
   position: absolute;
   top: 2%;

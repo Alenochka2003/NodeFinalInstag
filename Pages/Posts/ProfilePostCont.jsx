@@ -12,7 +12,12 @@ const ProfilePosts = ({ post, onClose, currentUser, onCancel, onDelete }) => {
           <button onClick={onClose} className={styles.closeButton}>
             Закрыть
           </button>
-         
+          {/* Кнопка отмены */}
+          {onCancel && (
+            <button onClick={onCancel} className={styles.cancelButton}>
+              Отменить
+            </button>
+          )}
         </div>
       </div>
     </div>

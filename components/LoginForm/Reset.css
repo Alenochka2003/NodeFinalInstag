@@ -1,0 +1,85 @@
+.reset-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрирует элементы по горизонтали */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 390px;
+  height: auto; /* Задайте ширину контейнера */
+  margin: auto; /* Центрирует контейнер на странице */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Добавляет тень */
+}
+
+.reset-container p{
+font-size: 14px;
+align-items: center;
+color: rgba(115, 115, 115, 1);
+;
+width: auto;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Задает ширину формы */
+}
+
+
+
+
+.writing_text {
+  margin-bottom: 15px; /* Отступ между полями */
+}
+
+.writing_text input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+
+.login-or-reset {
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  margin:  20px 0;
+  font-size: 13px;
+  color: #737373;
+ }
+
+ .back_to {
+  margin-top: 84px;
+  font-size: 14px;
+  color: rgba(38, 38, 38, 1);
+  ;
+ }
+
+ .new_acc {
+  font-size: 14px;
+  color: rgba(38, 38, 38, 1);
+  ;
+ }
+ .writing_text h2 {
+  font-size: 16px;
+ }
+ 
+ .writing_text button {
+  padding: 10px;
+  background-color: #007bff; /* Синий цвет кнопки */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+.writing_text button:hover {
+  background-color: #0056b3; /* Более темный синий при наведении */
+}
+
+.error {
+  color: red; /* Цвет текста ошибки */
+  font-size: 12px; /* Размер шрифта для ошибок */
+}
